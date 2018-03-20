@@ -1,0 +1,42 @@
+<div class="jumbotron">
+	<!--<h2><%= title %></h2> -->
+
+	<% if(!randomName){%>
+		<h2>If you are one of authorized dudes listed below then find out who would be supporting upcoming production change.</h2>
+		<br>
+	<img width="400" height="400" style="align: left;" src="https://3.bp.blogspot.com/-0PZUJdwVFiU/WrFG5jy9HbI/AAAAAAAAEAI/7LUs3vng1DcCam7CiGfvhOn0wS70f33ZwCLcBGAs/s1600/Sonny.jpg">
+<h2>Dude (Sonny)</h2>
+<img width="400" height="400" style="align: right;" src="https://1.bp.blogspot.com/-XthEzacGsWs/WrFG3hoyuoI/AAAAAAAAEAE/dlLV2g1H7Zc-MelbyPaDdkTVswxjAkm2wCLcBGAs/s1600/Rajesh.jpg">
+				<h2>Ultimated dude (Rajesh)</h2>
+<br/>
+<br/>
+			<p>	<a class="btn btn-sm btn-primary" style="align: center;"  href="/getRandomName" role="button">Find out</a>
+		<%}%>
+
+
+
+
+	<% if(randomName){%>
+			<p>	<a class="btn btn-sm btn-primary" href="/getRandomName" role="button">Try again</a>	</p>
+			<h1> <%= randomName %> </h1>
+		<% if (randomName=="Harish Dewangan")
+		{%><img width="400" height="400" src="https://1.bp.blogspot.com/-kokG_xp6iXs/WrE6h2O5yoI/AAAAAAAAD-o/dKCNb2fZYMIeAVM0vlDRKD4o_Sck29ysQCLcBGAs/s1600/Harish.jpg"><%}
+
+		if (randomName=="Prasada Karantha")
+		{%><img width="400" height="400" src="https://1.bp.blogspot.com/-ozykiTiKsYo/WrFBARo7YAI/AAAAAAAAD_M/z6p_sObRhWQ6i0G9cKo3PEkDYcGcCjaPQCLcBGAs/s1600/Prasada.jpg"><%}
+		if (randomName=="Randel Gojo Cruz")
+		{%><img width="400" height="400" src="https://2.bp.blogspot.com/-4wn7M-BVQCA/WrFBAR3fb4I/AAAAAAAAD_I/GRtF2rJTtqYUIPfSjDbzsbDXB9UHVC17gCLcBGAs/s1600/Randel.jpg"><%}
+		if (randomName=="Sreelatha Allampati")
+		{%><img width="400" height="400" src="https://3.bp.blogspot.com/-aYBmIQuju6o/WrFBARTOO5I/AAAAAAAAD_E/c00wqlB0Q5oV4fCUGMvWMwGHW8ULOfY5gCLcBGAs/s1600/Sreelatha.jpg"><%}
+		if (randomName=="Tukeshwar Bhardwaj")
+		{%><img width="400" height="400" src="https://1.bp.blogspot.com/-GQ9lXrisOQE/WrFBAvL4EnI/AAAAAAAAD_Q/xrbuehcuhDUTO4zAYwhGclSE4H_AISb_ACLcBGAs/s1600/Tukeshwar.jpg"><%}
+		if (randomName=="Venkata Thindi")
+		{%><img width="400" height="400" src="https://3.bp.blogspot.com/-wX-aV7oNqU4/WrFBBIYBzrI/AAAAAAAAD_U/Lkf_DzWsamwcJ-3cOI3DBnnsulRHs7k6QCLcBGAs/s1600/Venkata.jpg"><%}
+		if (randomName=="Ramesh Koda")
+		{%><img width="400" height="400" src="https://2.bp.blogspot.com/-xPUBTdwQ2fk/WrFBY9ZW8GI/AAAAAAAAD_Y/kSMwYVcO814NBkWbE3JGueERUO8rF6QhwCLcBGAs/s1600/Ramesh.jpg"><%}
+}%>
+
+
+
+
+</div>
