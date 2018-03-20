@@ -6,24 +6,7 @@ exports.getRandomName = function(req, res) {
     "Harish Dewangan",
     "Prasada Karantha",
     "Ramesh Koda",
-    "Randel Gojo Cruz",
-
-
-    "Venkata Thindi",
-    "Prasada Karantha",
-    "Sreelatha Allampati",
-    "Tukeshwar Bhardwaj",
-    "Harish Dewangan",
-    "Ramesh Koda",
-    "Randel Gojo Cruz",
-
-    "Prasada Karantha",
-    "Ramesh Koda",
-    "Randel Gojo Cruz",
-    "Venkata Thindi",
-    "Harish Dewangan",
-    "Sreelatha Allampati",
-    "Tukeshwar Bhardwaj"
+    "Randel Gojo Cruz"
   ];
 
   var randomName = myArray[Math.floor(Math.random()*myArray.length)];
