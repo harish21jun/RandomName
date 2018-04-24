@@ -29,7 +29,7 @@ app.use(function(req, res, next) {
 	next(err);
 });
 
-
+console.log("Testing env variable"+process.env.JIRA_URL);
 
 var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
     ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
